@@ -4,8 +4,6 @@ import './pictures.css';
 
 import Lightbox from './Lightbox';
 
-const requestImageFile = require.context('./images', true, /.jpg$/);
-
 const tabs = [
   {
     name: 'Round Cakes',
